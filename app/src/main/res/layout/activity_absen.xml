@@ -32,7 +32,7 @@
 
             <CalendarView
                 android:layout_width="286dp"
-                android:layout_height="267dp"
+                android:layout_height="wrap_content"
                 android:selectedWeekBackgroundColor="@color/pink"
                 android:id="@+id/calendar"/>
 
