@@ -59,6 +59,12 @@ class LoginFragment : Fragment() {
                     Toast.makeText(requireContext(), "Autentikasi gagal", Toast.LENGTH_SHORT).show()
                 }
             }
+            btnToRegister.setOnClickListener{
+                val mainActivity = requireActivity() as MainActivity
+
+                // Setel currentItem ke 1 (misalnya) pada ViewPager2
+                mainActivity.viewPager2.currentItem = 1
+            }
         }
     }
 
