@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/bottom_navigation">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/ticketFragment"
+        android:name="com.android.ppapb_part2.TicketFragment"
+        android:label="fragment_ticket"
+        tools:layout="@layout/fragment_ticket" >
+        <action
+            android:id="@+id/action_ticketFragment_to_buyTicketFragment"
+            app:destination="@id/buyTicketFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.android.ppapb_part2.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.android.ppapb_part2.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/buyTicketFragment"
+        android:name="com.android.ppapb_part2.BuyTicketFragment"
+        android:label="fragment_buy_ticket"
+        tools:layout="@layout/fragment_buy_ticket" >
+        <action
+            android:id="@+id/action_buyTicketFragment_to_spinnerFragment"
+            app:destination="@id/spinnerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="com.android.ppapb_part2.SpinnerFragment"
+        android:label="SpinnerFragment" />
 
 </navigation>

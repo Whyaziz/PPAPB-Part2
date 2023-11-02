@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicketFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="26dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Order Ticket"
+            android:textSize="32sp"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/ticket"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_buy"
+            style="@style/custom_btn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Buy Ticket"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</FrameLayout>

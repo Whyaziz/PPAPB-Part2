@@ -14,6 +14,11 @@
         <item>Terlambat</item>
         <item>Izin</item>
     </array>
+    <array name="ticket_types">
+        <item>First Class Ticket</item>
+        <item>Business Class Ticket</item>
+        <item>Economy Class Ticket</item>
+    </array>
     <string name="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae dolor dolorem sint eligendi ab veniam consectetur corrupti culpa natus sed rem ut doloribus nobis repudiandae at, nihil asperiores accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae dolor dolorem sint eligendi ab veniam consectetur corrupti culpa natus sed rem ut doloribus nobis repudiandae at, nihil asperiores accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae dolor dolorem sint eligendi ab veniam consectetur corrupti culpa natus sed rem ut doloribus nobis repudiandae at, nihil asperiores accusantium.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
